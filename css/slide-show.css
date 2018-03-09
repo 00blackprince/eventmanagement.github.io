@@ -1,0 +1,39 @@
+#video-container{
+  width:100%;
+  overflow: hidden;
+  position: relative;
+}
+video{
+  min-width: 100%;
+  min-height: 100%;
+  position: relative;
+  top:0;
+  bottom: 0;
+  left: 0;
+   right: 0;
+   z-index: -1;
+
+}
+.contents{
+  position: absolute;
+  top:40%;
+  left:50%;
+  width:auto;
+  transform: translate(-50% , -50%);
+  text-align: center;
+}
+.contents h1{
+
+      font-family: 'Courgette', cursive;
+
+
+  font-size: 3em;
+  margin: 10px 0;
+
+  text-transform: uppercase;
+}
+.contents p{
+  font-family:arial;
+
+  color: #fff;
+}

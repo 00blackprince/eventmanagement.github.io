@@ -1,0 +1,27 @@
+.topnav {
+  overflow: hidden;
+line-height: 50px;
+background: black;
+
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #b87333;
+  text-align: center;
+  padding: 0px 16px;
+  text-decoration: none;
+
+}
+
+.topnav a:hover {
+    background-image: linear-gradient(to right, #ebd197 , #b48811 ,#a2790d ,  	#bb9b49);
+  color: black;
+}
+
+
+
+.topnav .icon {
+  display: none;
+}

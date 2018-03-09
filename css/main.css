@@ -1,0 +1,87 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+
+  color: 	 	#b87333;
+}
+h1{
+  font-size:5vw;
+}
+img:hover{
+  box-shadow: 2px solid black;
+}
+ .important{
+color:  	#b87333;
+}
+p{
+  font-size: 1.2vw;
+}
+h2{
+  font-size: 4vw;
+}
+h3{
+  font-size:2.7vw;
+}
+h4{
+  font-size:2.3vw;
+}
+
+/*.important:hover{
+
+    background-image: linear-gradient(to right, #ebd197 , #b48811 ,#a2790d ,  	#bb9b49);
+}*/
+/* Create three equal columns that floats next to each other */
+.three-column {
+    float: left;
+    width: 30%;
+    margin-left:2.5%;
+    padding: 10px;
+    height:auto; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.three-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
+/* Create two equal columns that floats next to each other */
+.two-column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: auto; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.two-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.four-column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.four-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .four-column {
+        width: 100%;
+    }
+}

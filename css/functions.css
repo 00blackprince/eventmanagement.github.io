@@ -1,0 +1,18 @@
+.functions{
+  width:100%;
+
+  padding:20px;
+  margin-top: 15px;
+}
+.one-third-function{
+  padding:15px;
+  
+}
+.one-third-function img{
+  width:200px;
+  height:200px;
+}
+.one-third-function p{
+  text-indent: 50px;
+
+}

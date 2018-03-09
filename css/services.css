@@ -1,0 +1,15 @@
+.service{
+  padding:15px;
+
+}
+.service img{
+  width:150px;
+  height:150px;
+}
+.service p{
+  text-indent: 50px;
+
+}
+.services{
+  margin-top: 50px;
+}

@@ -1,0 +1,31 @@
+.events{
+  margin-top: 50px;
+  background: black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+.card {
+    background-image: linear-gradient(to right, #ebd197 , #b48811 ,#a2790d ,  	#bb9b49);
+
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+
+
+    color:black;
+}
+.card  b, .card  h4 , .card  p{
+  color: black;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+    padding: 2px 16px;
+}
+.event-card-row {
+  margin-top: 10px;
+  margin-bottom:30px;
+}
